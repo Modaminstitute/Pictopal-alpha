@@ -1,16 +1,45 @@
-# pictopal
+<p align="center">
+  <img src="pictopalLogo.png" alt="PictoPal Logo" width="180"/>
+</p>
 
-A new Flutter project.
+# PictoPal
+
+**PictoPal** is a fun and interactive Flutter app designed to help children under 5 learn new vocabulary through engaging visuals and playful activities.
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/Modaminstitute/pictopal-alpha)
+
+---
+
+## Features
+
+- Colorful, kid-friendly UI
+- Interactive vocabulary learning
+- Custom illustrations and icons
+- Cross-platform: Android, iOS, Web
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project locally:
 
-A few resources to get you started if this is your first Flutter project:
+1. **Clone the repository:**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+   ```sh
+   git clone https://github.com/Modaminstitute/pictopal-alpha.git
+   cd pictopal-alpha
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. **Install dependencies:**
+
+   ```sh
+   flutter pub get
+   ```
+
+3. **Run the app:**
+   ```sh
+   flutter run
+   ```
+## Resources
+
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
