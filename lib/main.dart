@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'pages/not_found.dart';
 import 'pages/index.dart';
+import 'pages/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,12 +18,15 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const IndexPage(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const SplashScreen(),
+        '/home': (context) => const IndexPage(),
+      },
       debugShowCheckedModeBanner: false,
-      // Tambahkan ini agar halaman NotFound muncul jika route tidak ditemukan
-      onUnknownRoute: (settings) => MaterialPageRoute(
-        builder: (context) => const NotFoundPage(),
-      ),
+      onUnknownRoute:
+          (settings) =>
+              MaterialPageRoute(builder: (context) => const NotFoundPage()),
     );
   }
 }
